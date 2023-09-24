@@ -1,0 +1,116 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .pic1{
+        height: 300px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .pic1{
+        height: 420px;
+    }
+     .descrip{
+        padding: 20px 0px 50px 50px;  
+    }
+    .block_5 h1{
+        font-size: 20px;
+    }
+    .block_5 h4{
+        font-size: 18px;
+        padding: 0;
+    }
+    .block_5 p{
+        padding: 0;
+    }
+    .contact input{
+        margin: auto;
+        padding: 10px 50px;
+    }
+    .line{
+        margin-top: 15px;
+    }
+    .contact h1{
+        font-size: 28px;
+    }
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+    nav{
+        height: 94px;
+        line-height: 94px;
+        background-color: #fff;
+        position: fixed;
+    }
+	#top_menu{
+        background-color: #fff;
+        color: gray;
+    }
+    .menu li{
+        display: block;
+        text-align: center;
+    }
+    .menu_btn{
+        width: 40px;
+        height: 40px;
+        border: 1px solid #000;
+        border-radius:50%;
+        background-color: #000;
+        color: #fff;
+        margin-top: 35px;
+    }
+    .menu_btn span{
+        top: -29px;
+        color: #fff;
+        font-size: 18px;
+    }
+    .descrip{
+        padding: 20px 0px 50px 50px;  
+    }
+    .block_5 h1{
+        font-size: 22px;
+    }
+    .block_5 h4{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .block_5 p{
+        margin-left: auto;
+    }
+    .contact h2{
+        margin: auto;
+    }
+    .contact input{
+        margin: auto;
+        padding: 10px 50px;
+    }
+    .contact button{
+        margin: 5px;
+    }
+    .line{
+        margin: 15px;
+    }
+    .contact h1{
+        font-size: 28px;
+    }
+    .tourists h1{
+        font-size: 26px;
+    }
+    .comment1{
+        padding: 5px;
+    }
+}

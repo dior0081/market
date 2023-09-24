@@ -1,0 +1,140 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .team_mini img{
+    width: 195px;
+    height: 215px;
+    padding: 5px;
+    margin-top: 35px;
+    }
+    .block_10 button{
+        margin-bottom: 15px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 760px) {
+    nav{
+        position: relative;
+    }
+    .menu{
+        margin left: 0;
+    }
+    .menu li{
+        display: inline-block;         
+    }
+    .block_4{
+        padding: 25px 5px;
+    }
+    .textblock{
+   
+    }
+
+
+    
+   
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+	nav{
+        height: 90px;
+        line-height: 55px;
+        background-color: #000;
+        position: fixed;
+    }
+    #top_menu{
+        background-color: #e1e1e1;
+        color: #000;
+    }
+    .menu{
+        margin-left: 0;
+    }
+    .menu li{
+        display: block;
+        text-align: center;
+    }
+    .menu_btn{
+        width: 40px;
+        height: 40px;
+        border: 1px solid #fff;
+        border-radius:50%;
+        background-color: #fff;
+        color: #000;
+        margin-top: 15px;
+    }
+    .menu_btn span{
+        top: -15px;
+        color: #000;
+        font-size: 18px;
+    }
+    .block_1 h1{
+        font-size: 30px;
+        margin-top: 80px;
+    }
+    .video{
+        width: 280px;
+        height: 400px;
+    }
+    .block_8 h1{
+        font-size: 30px;
+    }
+    .block_8 input{
+        width: 250px;
+        margin-bottom: 5px;        
+    }
+    .block_8 button{
+        padding: 10px;
+        position: relative;
+    }
+    .txt{
+        width: 330px;
+        position: relative;
+        margin-bottom: -40px;
+    }
+    .mail{
+        width: 330px;
+        margin: 55px 0 ;        
+        position: relative;
+    }
+    .message{
+        width: 330px;
+        margin-top: 0px;
+
+    }
+    .block_10 button{
+        width: 330px;
+        margin-bottom: 20px;
+   }
+   .footer{
+       padding: 0;
+   }
+   .contact h3{
+       margin-top: 50px;
+   }
+   .contact p{
+       padding: 5px;
+   }
+   .contact_info{
+       height: 100%;
+   }
+   
+   .shadow{
+       text-align: center;
+
+   }
+   .team_social li{
+       padding: 5px;
+   }
+   
+  
+   
+}

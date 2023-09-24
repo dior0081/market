@@ -1,0 +1,414 @@
+.banner{
+    background-image: url(../images/bg.jpg);
+    height: 700px;
+} 
+
+/*index*/
+
+header{
+    background-image: url(../images/bg.jpg);
+    height: 300px;
+}
+nav{
+    height: 94px;
+    line-height: 94px;    
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    z-index: 9999;
+}
+.menu{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.menu li{
+    display: inline-block;
+    padding: 0 10px;    
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu li a:hover{
+    color: red;
+}
+.menu li i{
+    font-size: 20px;
+}
+.block_1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    
+}
+.model_bike{
+    background-color: #beb4b4;
+    height: 60px;
+    padding: 0;
+}
+.block_2{
+    padding: 15px 0;
+    color: #000;
+}
+.block_2 h5{
+    text-transform: uppercase;
+    
+}
+.block_2 button{
+    float: right;
+    padding: 5px 25px;
+    margin-top: 13px;
+    background-color: #2c2727;
+    color: #fff;
+    text-transform: uppercase;
+}
+.block_3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.line{
+    height: 3px;
+    background-color: #000;
+}
+
+.block_4{
+    padding: 15px 0;
+    color: #000;
+}
+.block_4 h5{
+    text-transform: uppercase;
+    
+}
+.block_4 button{
+    float: right;
+    padding: 5px 25px;
+    margin-top: 13px;
+    background-color: #2c2727;
+    color: #fff;
+    text-transform: uppercase;
+}
+.block_5{
+    text-align: center;
+    text-transform: uppercase;
+}
+.block_6{
+    padding: 15px 0;
+    color: #000;
+}
+.block_6 h5{
+    text-transform: uppercase;
+    
+}
+.block_6 button{
+    float: right;
+    padding: 5px 25px;
+    margin-top: 13px;
+    background-color: #2c2727;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer{
+    background-color: yellow;
+    padding: 5px 0;
+}
+.footer li a{
+    color: #000;
+}
+.footer ul{
+    padding: 15px 0px;
+}
+
+/*index1*/
+
+.block_home{
+    background-color: rgb(211, 204, 204);
+    height: 30px;
+}
+.block_home p{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.shopping_bag{
+    padding: 20px;
+}
+.bag_detail{
+    background-color:  rgb(207, 204, 204);
+    height: 200px;
+    margin: 15px;
+}
+.bag_detail img{
+    padding: 15px;
+}
+.bag_detail h5{
+    font-weight: 600;
+}
+.bag_detail p{
+    padding: 10px 0;
+}
+.bag_detail span{
+
+    font-size: 20px;
+}
+.bag_detail input{
+    padding: 5px;
+    width: 80px;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+}
+.line_3{
+    height: 1px;
+    background-color: #000;
+    margin-top: 125px;
+}
+.cancel{
+    position: absolute;
+    margin-left: -28px;
+    margin-top: -15px;    
+}
+.left_block{
+    border-left: 1px solid #000; 
+    text-align: center;   
+}
+.btn_bask{
+    
+    background-color: orange;
+    border: 1px solid orange;
+}
+.details{
+    padding: 30px 0;
+    text-align: left;
+}
+.line_4{
+    height: 2px;
+    background-color: #000;
+    margin-top: 140px;
+}
+.h4{
+    font-weight: 700;
+    text-align: left;
+}
+.btn_order{
+    padding: 5px 40px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    margin: 15px;
+}
+.opt{
+    text-align: left;
+}
+.btn_coup{
+    padding: 3px 10px;
+    font-size: 12px;
+}
+.link{
+    text-align: left;
+}
+
+
+/*index2*/
+
+.block_2_2 h4{
+    background-color: rgb(63, 62, 63);
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.home{    
+    text-align: left;
+    background-color: rgba(193, 202, 201, 0.747);
+    padding: 8px;
+}
+.block_2_2 img{
+    width: 150px;
+    height: 150px;
+    
+}
+.index_2{
+    text-align: center;
+}
+.index_2 h5{
+    font-weight: bold;
+}
+.index_2 button{
+    background-color: rgb(168, 165, 165);
+    color: #fff;
+    text-transform: uppercase;    
+}
+.index_2 hr{
+    border: 1px solid #000000;
+    
+}
+.index_2 p{
+    color: #000;
+}
+/*index3*/
+
+.banner_title{
+    text-align: center;
+    padding-top: 200px;        
+}
+.banner_title h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+.banner_title h2{
+    color: #fff;
+}
+.banner_title span{
+    color: yellow;
+}
+.banner_title button{
+    background-color: #000;
+    color: yellow;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.banner_title img{
+    padding-top: 150px;
+}
+.bike_categories h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+.block_categories{
+    text-align: center;
+    background-image: url(/images/cate.jpg);
+    height: 500px;
+    background-size: cover;
+}
+.block_categories h4{
+    color: yellow;
+    font-weight: 600;
+}
+.block_categories h5{
+    color: #fff;
+    font-weight: 500;
+}
+.block_categories button{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.work_block{
+    padding: 40px;
+}
+/* check?*/
+.work_block{
+    position: relative;
+}
+.image_wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:transparent;
+	display: flex;
+	opacity: 1;
+}
+.descrip{
+	color: #fff;
+	text-align: center;
+    margin: auto;    
+}
+
+.popular_bikes{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px ;
+}
+.block_popular_bikes p{
+   
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:  #000;
+    line-height: 15px;
+}
+.block_popular_bikes span{
+    font-size: 14px;
+    font-weight: normal;
+}
+.block_popular_bikes select{
+    text-transform: uppercase;
+    padding: 10px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.block_popular_bikes button{    
+    padding: 7px 35px;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    background-color: #e1e1e1;
+    margin-bottom: 25px;
+}
+.contact{
+    background-image: url(../images/contact.jpg);
+    background-size: cover;
+    padding: 15px ;
+    text-align: center;
+    color: gray;
+}
+.contact h1{
+    text-transform: uppercase;
+    color: #000;
+}
+.contact p{
+    color: #000;
+}
+.name{
+    border: 1ps solid #e1e1e1;
+    border-radius: 4px;
+    padding: 8px 40px;
+    position: absolute;
+    
+}
+.surname{
+    position: absolute;
+    padding: 8px 40px;
+    border: 1ps solid #e1e1e1;
+    border-radius: 4px;
+    margin-top: 55px;
+  
+    
+}
+.mail{
+    position: absolute;
+    border: 1ps solid #e1e1e1;
+    border-radius: 4px;
+    padding: 8px 40px;
+    margin-top: 110px;
+   
+}
+.Message{
+    
+    position: absolute;
+    margin-top: 160px;
+    border: 1ps solid #e1e1e1;
+    border-radius: 4px;
+}
+.contact button{
+    
+    margin-top: 285px;
+    padding: 10px 110px;
+    border: 1ps solid #e1e1e1;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}

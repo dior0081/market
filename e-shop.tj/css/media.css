@@ -1,0 +1,134 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.block_6{
+        padding: 0;
+        text-align: center;
+    }
+    .block_6 button{
+        margin-top: 10px;
+    }
+    .banner h2{
+     padding: 50px 0 0;
+    }
+    .float_r{
+       padding: 0 0 0 200px;
+    }
+    /*index_2_css*/
+    .contact{
+        padding: 20px 0 80px 5px;
+        
+    }
+    .cf_txt{
+        padding: 10px 100px 0 15px;    
+        
+    }
+    .cf_mail{
+        padding: 10px 100px 0 15px;        
+    }
+    .submit{
+        padding: 10px 100px 0 15px;        
+    }
+    .contact button{       
+        padding: 10px 50px;
+        
+    }
+    .msg{
+        padding: 0 140px 10px 5px;
+    }    
+    .pic_bag{
+        height: auto;
+        width: auto;
+    }
+    .col_index3{
+        height: 220px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 375px) {
+	.block_6 input{
+        padding: 10px 60px;
+    }  
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+    #top_menu{
+        background-color: #fff;
+    }
+    nav{
+        height: 60px;
+        line-height: 60px;       
+    }
+    .menu li{
+        display: block;
+        text-align: center;
+    }
+    .menu_btn{
+        width: 40px;
+        height: 40px;
+        background-color: indianred;
+        border: 1px;
+        border-radius: 50%;
+        margin-top: 12px;
+    }
+    .menu_btn span{
+        top: -15px;
+        color: white;
+    }
+    .block_6{
+        text-align: center;
+    }
+    
+    .block_6 input{
+        padding: 10px 70px;
+    }
+    .block_6 button{
+        margin-top: 10px;
+    }
+    /* index_css*/
+
+   
+    .banner h2{
+        font-size: 35px;
+    }
+    .float_r{
+        padding: 0 0 0 30px;
+    }
+    
+    .cf_txt{
+        padding: 5px 130px 0 5px;    
+        
+    }
+    .cf_mail{
+        padding: 5px 130px 0 5px;        
+    }
+    .submit{
+        padding: 5px 130px 0 5px;        
+    }
+    .contact button{       
+        padding: 10px 50px 0 50px;
+        margin-top: 350px;
+    }
+    .msg{
+        padding: 0 140px 10px 5px;
+        margin-top: 160px;        
+    }
+    .pic_bag{
+        height: auto;
+        width: 600px;
+    }
+}
+/*==========  Mobile First Method  ==========*/

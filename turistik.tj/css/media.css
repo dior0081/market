@@ -1,0 +1,106 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    nav{
+        height: 80px;
+        line-height: 1px;        
+    }
+    #top_menu{
+        top: 10px;
+    }
+	.block_6{
+        height: auto;
+    }
+    .block_3 img{
+        margin: 15px 0;
+    }
+    .c0{
+        margin: 15px 40px;
+    }
+    .logo{
+        margin-top: 10px;
+    }
+
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+    .top_footer p{
+        padding: 0;
+    }
+    .top_footer select{
+        margin-top: auto;
+    }
+    nav{
+        height: 80px;
+        line-height: 45px;
+        background-color:#fff;        
+    }
+    .logo{
+        padding-top: 20px;
+    }
+    #top_menu{
+        background-color: #fff;
+    }
+    .menu li{
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    .menu_btn{
+        width: 35px;
+        height: 35px;
+        border: 1px solid #29aaca;
+        border-radius:50%;
+        margin-top: 20px;
+    }
+    .menu_btn span{
+        top: -12px;
+        color: #29aaca;
+    }
+    .block_3 img{
+        margin: 15px 0;        
+    }
+    .c0{
+        margin: 15px 15px;
+    }
+    .block_6{
+        height: auto;
+    }
+    .block_8 h4{
+        margin-top: 250px;
+    }
+    .block_8 input{
+        width: 300px;
+    }
+    .block_8 textarea{
+        width: 300px;
+
+    }
+    .block_8 button{
+        margin-top: 135px;
+        padding: 7px 20px;
+    }
+    .social i{
+        font-size: 12px;
+        padding: 20px;            
+    }
+    .block_1{
+        padding-top: 400px;
+    }
+    .banner_text h2{
+        font-size: 18px;
+    }
+
+
+
+}

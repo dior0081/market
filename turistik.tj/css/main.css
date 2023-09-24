@@ -1,0 +1,255 @@
+.top_footer{
+    background-color:#29aaca;    
+   
+}
+.top_footer p{
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.top_footer select{
+    margin-top: 15px;
+    float: right;
+    padding: 0 18px;
+    background-color: #29aaca;
+    color: #fff;
+}
+nav{
+    height: 94px;
+    line-height: 94px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li{
+    display: inline-block;
+    padding: 0 20px;   
+}
+.menu li a{
+
+    font-weight: 600;
+    color: #000;
+}
+.menu li a:hover{
+    text-decoration: none;
+    color: #29aaca;
+}
+.block_1{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url(../img/ba2.jpg);
+    padding-top: 388px;
+}
+.banner_text{
+    background-color: rgba(129, 206, 232, 0.7);
+    text-align: center;
+    padding: 10px;
+
+    
+}
+.banner_text h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner_text p{
+    color: #fff;
+}
+.block_2{
+    padding: 20px 0;
+}
+.work_block{
+    position: relative;
+}
+.image_wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 170, 202, 0.7);
+    display: flex;
+    opacity: 0;
+}
+.work_block:hover .image_wrap{
+    opacity: 1;
+}
+.work_descr{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+.hr{
+    padding: 0 15px;
+}
+.block_4{
+    
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.pricing{
+    padding: 15px 0;
+}
+.price_txt{
+    background-color: #29aaca;
+    color:#fff;
+    margin-top: -20px;
+    
+    
+}
+.price_txt h1{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 15px 0 0 0;    
+}
+.price_txt span{
+    font-size: 15px;
+    text-transform: none;
+}
+.c0{
+    width: 270px;
+    height: 550px;
+    margin: 0 5px;
+    background-color: #fff;
+    padding: 0px;
+}
+.pricing button{
+    border: 1px solid #29aaca;
+    padding: 7px 55px;
+}
+.block_5{
+    background-color: #f4f4f4;
+    padding: 25px 0;
+    text-align: center;
+}
+.block_5 button{
+    margin-top: 15px;
+    padding: 10px 40px;
+}
+.block_6{
+    height: 600px;
+    text-align: center;
+    color:#fff;
+    background-image: url(../img/se.jpg);
+
+}
+.block_6 h1{
+    padding: 15px;
+}
+.block_6 p{
+    padding: 5px;
+}
+.block_6_1{
+    text-align: left;
+}
+.block_6_1 h3{
+    text-transform: uppercase;
+}
+.block_6_1 img{
+    position: absolute;
+    margin-top: 30px;
+    padding: 5px;
+}
+.block_6_1 h3{
+    margin-left: 80px;
+}
+
+.block_6_1 p{
+    margin-left: 80px;
+}
+
+.block_6_1 button{
+    margin-left: 80px;
+}
+.p0{
+    padding: 20px 0;
+}
+.block_6_1 button{
+    background-color: transparent;
+    border: 1px solid #29aaca;
+    color: #fff;
+    text-transform: uppercase;
+}
+.error{
+    height: 300px;
+    width: 100%;
+    background-image: url(../img/bo2.jpg);
+    background-size: cover;
+}
+.block_8{
+    padding: 60px 10px;
+
+}
+.block_8 h4{
+    text-transform: uppercase;
+}
+.block_8 h3{
+    text-transform: uppercase;
+}
+.block_8 input{
+    position: absolute;
+    width: 350px;
+    padding: 10px;
+    color: #e1e1e1;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+.block_8 textarea{
+    width: 350px;
+    margin-top: 60px;
+    position: absolute;
+    color: #e1e1e1;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+.block_8 button{
+    position: absolute;
+    margin-top: 160px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+}
+.social i{
+    padding: 0 20px;
+    font-size: 15px;
+    padding: 25px;
+    list-style-type: none;    
+}
+.social li{
+    border: 2px solid #e1e1e1;
+    border-radius: 50%;
+    display: inline-block;
+}
+.block_9{
+    margin-top: 120px;
+    background-color: #29aaca;
+    color: #fff;
+}
+.block_9 h1{
+    text-transform: uppercase;
+    font-weight: 600;    
+}
+.bottom_menu{       
+    list-style-type: none;  
+    padding: 0;
+    margin-top: 15px;
+      
+}
+.bottom_menu li{
+    display: inline-block;
+    padding: 0 px;
+}
+.bottom_menu li a{
+    color: #fff;
+}
+.bottom_menu li a:hover{
+    text-decoration: none;
+    color: blue;
+}

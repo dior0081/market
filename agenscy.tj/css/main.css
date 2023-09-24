@@ -1,0 +1,266 @@
+nav{
+    height: 94px;
+    line-height: 94px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #323031;
+    color: #fff;
+}
+.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 px;
+    text-transform: uppercase;
+}
+.menu li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+.menu li a{
+	color: #fff;
+    font-weight: bold;
+}    
+.menu li:hover{
+    text-decoration: none;
+    background-color: #ff3f40;
+}
+.block_1{
+    padding: 15px;
+    background-color:#e1e1e1;
+    
+}
+.video{
+    width: 500px;
+    height: 300px;    
+    box-shadow: 3px 3px 3px 3pxgray;
+}
+.block_1 h1{
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.block_1 button{
+    width: 140px;
+    margin-top: 25px;
+    padding: 12px;
+}
+.block_2{
+    padding: 20px 0;
+}
+.block_2 h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+.block_2 button{
+    padding: 12px;
+    border: 2px solid red;
+    width: 160px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.block_3{
+    text-align: center;
+    padding: 60px 0;
+}
+.block_3 h1{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.block_4{
+    padding: 25px 0;
+    text-transform: uppercase;
+}
+.products{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.products li{
+    display: inline-block;
+    padding: 0 20px;  
+}
+.products li a{
+	color: #000;
+    font-weight: bold;
+}    
+.products li a:hover{
+    text-decoration: none;
+    color:red;
+}
+.block_5{
+    padding: 15px 0;
+    
+}
+.p0{
+    padding: 10px;
+}
+.block_6{
+    padding: 20px 0;
+}
+.block_6 h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.block_6 img{
+    padding: 20px 0 0 0;
+}
+
+
+.main_pic{
+    margin-top: 30px;
+    width: 100%;
+
+}
+.team_mini img{
+    width: 195px;
+    height: 215px;
+    padding: 5px;
+    margin-top: 35px;
+}
+.team_mini h1{
+    font-weight: 600;
+}
+.team_social{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.team_mini li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.textblock{
+    background-color:rgba(232, 69, 69, .7);
+    position: absolute;
+    margin-top: 215px;
+    width: 185px;
+    margin-left: 5px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center; 
+    opacity: 0;   
+}
+.shadow{
+    position: relative;
+}
+.shadow:hover .textblock{
+    opacity: 1;
+}
+.block_8{
+    padding: 20px;
+    margin-top: 60px;
+    text-align: center;
+    background-color: #f6f1de;
+}
+.block_8 h1{
+    color: #fff;
+    font-weight: 600;
+}
+.block_8 p{
+    color: #fff;
+    padding: 15px;
+}
+.block_8 input{
+    padding: 15px;
+    width: 400px;
+}
+.block_8 button{   
+    padding: 15px;
+    width: 150px;
+    margin: 0 0 0 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.block_9{    
+    margin-top: 40px;    
+}
+.block_9 h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+}
+.block_9 p{
+    padding: 10px;
+}
+.block_9 img{
+    padding: 10px;
+}
+.block_10{
+    margin-top: 40px;
+}
+.txt{
+    
+    position: absolute;
+    padding: 15px;
+    width: 250px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background-color: #e1e1e1;
+}
+.mail{
+    margin-left: 270px;
+    position: absolute;
+    padding: 15px ;
+    width: 250px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background-color: #e1e1e1;
+}
+.message{
+    
+    margin-top: 60px;
+    width: 520px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background-color: #e1e1e1;
+}
+.block_10 button{
+    
+    padding: 10px;
+    width: 520px;
+    margin-top: 15px;
+}
+
+.contact{
+
+    color: #fff;
+    margin-left: 20px;    
+}
+.contact_info{
+    
+    background-color: #000;
+}
+.contact h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 100px;
+    padding: 0 0 15px 5px;
+}
+.contact p{
+    padding: 10px;
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    margin-top: 40px;
+}
+.footer p{
+    padding: 10px;
+}
+.footer button{   
+    float: right;
+    margin-right: 10px;
+    border: 1px solid #fff;
+    border-radius:50%;
+	color: #000;
+	background-color: #fff;
+	width: 30px;
+    height: 30px;
+}

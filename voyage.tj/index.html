@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>voyage.tj</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="/font-awsome/css/font-awesome.min.css">
+
+</head>
+<header>
+	<nav>
+		<div class="container">
+			<div class="row">
+				<div class="navbar-header">
+					<button class="navbar-toggle collapsed menu_btn" data-toggle="collapse" data-target="#top_menu">
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</button>
+					<a href="#" class="navbar-brand logo">
+						<h1>Voyage</h1>
+					</a>
+				</div>
+				<div class="collapse navbar-collapse navbar-right" id="top_menu">
+					<ul class="menu">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Tours</a></li>
+						<li><a href="#">Hotels</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="block_0">
+		<div class="tab">
+			<button class="tablinks" onclick="openCity(event, 'London')">01 Flight</button>
+			<button class="tablinks" onclick="openCity(event, 'Paris')">02 Hotel</button>
+			<button class="tablinks" onclick="openCity(event, 'Tokyo')">03 Car Rent</button>
+			<button class="tablinks" onclick="openCity(event, 'Tokyo')">04 Cruises</button>
+		</div>
+
+		<div id="London" class="tabcontent">
+			<input class="textbox" placeholder ="Search location" type="text" name="" id="">
+			<input class="textbox" placeholder ="Check-in date" type="text" name="" id="">
+			<input class="textbox" placeholder ="Check-out date" type="text" name="" id="">
+			<select name="user" id="">
+				<option value="Guest">Guest</option>
+			</select>
+			<button class="fa fa-default">Find Flights</button>
+		</div>
+
+		<div id="Paris" class="tabcontent">
+			<input class="textbox" placeholder ="Search location" type="text" name="" id="">
+			<input class="textbox" placeholder ="Check-in date" type="text" name="" id="">
+			<input class="textbox" placeholder ="Check-out date" type="text" name="" id="">
+			<select name="user" id="">
+				<option value="Guest">Guest</option>
+			</select>
+			<button class="fa fa-default">Find Flights</button>
+		</div>
+
+		<div id="Tokyo" class="tabcontent">
+			<input class="textbox" placeholder ="Search location" type="text" name="" id="">
+			<input class="textbox" placeholder ="Check-in date" type="text" name="" id="">
+			<input class="textbox" placeholder ="Check-out date" type="text" name="" id="">
+			<select name="user" id="">
+				<option value="Guest">Guest</option>
+			</select>
+			<button class="fa fa-default">Find Flights</button>
+		</div>
+
+		<div id="Tokyo" class="tabcontent">
+			<input class="textbox" placeholder ="Search location" type="text" name="" id="">
+			<input class="textbox" placeholder ="Check-in date" type="text" name="" id="">
+			<input class="textbox" placeholder ="Check-out date" type="text" name="" id="">
+			<select name="user" id="">
+				<option value="Guest">Guest</option>
+			</select>
+			<button class="fa fa-default">Find Flights</button>
+		</div>
+	</div>
+</header>
+<body>
+	
+	<div class="block_1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+										
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		/*начало скрипта таб*/
+
+function openCity(evt, cityName) {
+	var i, tabcontent, tablinks;
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName('tablinks');
+	for (i = 0; i < tablinks.length; i++){
+		tablinks[i].className = tablinks[i].className.replace("active", "");
+	}
+	document.getElementById(cityName).style.display = "block";
+	evt.currentTarget.className += "active";
+}
+
+/*конец скрипта таб*/
+	</script>
+	<div class="block_2">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 colxs-12 col_2">
+					<img class="img-responsive" src="img/tour-1.jpg" alt="">
+					<div class="play">
+						<i class="fa fa-play"></i>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 colxs-12 col_2">
+					<h3>Welcome to Bon Voyage since 1898 established  Far far away.</h3>
+					<p>Far far away, behind  to the world mountains, far from countries Vokalia and Consonatia, 
+						there live the behind texts. Separated  they live in Bookmarksgrove right at the coast 
+						of the Semantics, a large language ocean 
+					</p>
+					<p> A small river name  Duden flows by their placeand suplace.  Separated  they live in Bookmarksgrove right at the coast 
+						of the Semantics, a large language ocean 
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block_3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img class="img-responsive" src="img/promo-1.jpg" alt="">
+					<h3>Group Cruises</h3>
+					<p><span>from</span> $299</p>
+					<a href="#">read more</a>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img class="img-responsive" src="img/promo-2.jpg" alt="">
+					<h3>Beach Tours</h3>
+					<p><span>from</span> $199</p>
+					<a href="#">read more</a>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img class="img-responsive" src="img/promo-3.jpg" alt="">
+					<h3>Mountain Tours</h3>
+					<p><span>from</span> $179</p>
+					<a href="#">read more</a>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img class="img-responsive" src="img/promo-3.jpg" alt="">
+					<h3>Family Tours</h3>
+					<p><span>from </span> $599</p>
+					<a href="#">read more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block_4">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Our Services</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block_5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img class="" src="img/loc.png" alt="">
+					<h5>Special activities</h5>
+					<p>Even the all-powerfull pointing has no control about the blind texts it is an almost unorthographic.</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img class="" src="img/loc.png" alt="">
+					<h5>Special activities</h5>
+					<p>Even the all-powerfull pointing has no control about the blind texts it is an almost unorthographic.</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img class="" src="img/loc.png" alt="">
+					<h5>Special activities</h5>
+					<p>Even the all-powerfull pointing has no control about the blind texts it is an almost unorthographic.</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img class="" src="img/loc.png" alt="">
+					<h5>Special activities</h5>
+					<p>Even the all-powerfull pointing has no control about the blind texts it is an almost unorthographic.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block_6">
+		<div class="container">
+			<div class="row">
+				<div class="col-ms-12">
+					<h1>Most Popular Destination</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block_7">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3 p0 col-sm-6 col-xs-12">
+					<div class="work_block">
+						<div class="image_wrap">
+							<div class="work_descr">
+								<p>$399</p>
+								<h4>Group Tour in Maldives</h4>
+								<p>Ameer Ahmed Magu Male, Maldives</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i> 500 reviews
+								
+							</div>
+						</div>	
+						<img class="img-responsive" src="img/tour-1.jpg" alt="">
+					</div>					
+				</div>
+				<div class="col-md-3 p0 col-sm-6 col-xs-12">
+					<div class="work_block">
+						<div class="image_wrap">
+							<div class="work_descr">
+								<h4>$399</h4>
+								<h4>Group Tour in Maldives</h4>
+								<p>Ameer Ahmed Magu Male, Maldives</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>  500 reviews
+							</div>
+						</div>	
+						<img class="img-responsive" src="img/tour-2.jpg" alt="">
+					</div>					
+				</div>
+				<div class="col-md-3 p0 col-sm-6 col-xs-12">
+					<div class="work_block">
+						<div class="image_wrap">
+							<div class="work_descr">
+								<h4>$399</h4>
+								<h4>Group Tour in Maldives</h4>
+								<p>Ameer Ahmed Magu Male, Maldives</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>  500 reviews								
+							</div>
+						</div>	
+						<img class="img-responsive" src="img/tour-3.jpg" alt="">
+					</div>					
+				</div>
+				<div class="col-md-3 p0 col-sm-6 col-xs-12">
+					<div class="work_block">
+						<div class="image_wrap">
+							<div class="work_descr">
+								<h4>$399</h4>
+								<h4>Group Tour in Maldives</h4>
+								<p>Ameer Ahmed Magu Male, Maldives</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>  500 reviews								
+							</div>
+						</div>	
+						<img class="img-responsive" src="img/tour-4.jpg" alt="">
+					</div>					
+				</div>
+				<div class="col-md-3 p0 col-sm-6 col-xs-12">
+					<div class="work_block">
+						<div class="image_wrap">
+							<div class="work_descr">
+								<h4>$399</h4>
+								<h4>Group Tour in Maldives</h4>
+								<p>Ameer Ahmed Magu Male, Maldives</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>  500 reviews
+							</div>
+						</div>	
+						<img class="img-responsive" src="img/tour-5.jpg" alt="">
+					</div>					
+				</div>
+				<div class="col-md-3 p0 col-sm-6 col-xs-12">
+					<div class="work_block">
+						<div class="image_wrap">
+							<div class="work_descr">
+								<h4>$399</h4>
+								<h4>Group Tour in Maldives</h4>
+								<p>Ameer Ahmed Magu Male, Maldives</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>  500 reviews								
+							</div>
+						</div>	
+						<img class="img-responsive" src="img/tour-6.jpg" alt="">
+					</div>					
+				</div>
+				<div class="col-md-3 p0 col-sm-6 col-xs-12">
+					<div class="work_block">
+						<div class="image_wrap">
+							<div class="work_descr">
+								<h4>$399</h4>
+								<h4>Group Tour in Maldives</h4>
+								<p>Ameer Ahmed Magu Male, Maldives</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>  500 reviews								
+							</div>
+						</div>	
+						<img class="img-responsive" src="img/tour-7.jpg" alt="">
+					</div>					
+				</div>
+				<div class="col-md-3 p0 col-sm-6 col-xs-12">
+					<div class="work_block">
+						<div class="image_wrap">
+							<div class="work_descr">
+								<h4>$399</h4>
+								<h4>Group Tour in Maldives</h4>
+								<p>Ameer Ahmed Magu Male, Maldives</p>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>  500 reviews								
+							</div>
+						</div>	
+						<img class="img-responsive" src="img/tour-8.jpg" alt="">
+					</div>					
+				</div>				
+			</div>
+		</div>
+	</div>
+	<div class="block_8">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<h1>Our Satisfied Guests says</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block_9">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6 col-xs-12 guest">
+					<img class="img-responsive" src="img/person_1.jpg" alt="">
+					<div class="descr">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<p>Far far away, behind  to the world mountains, far from countries Vokalia and Consonatia, 
+							there live the behind texts.
+						</p>
+						<a href="#">Dennis Green</a>
+						<h6>Guest from Italy</h6>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 guest">
+					<img class="img-responsive" src="img/person_2.jpg" alt="">
+					<div class="descr">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<p>Far far away, behind  to the world mountains, far from countries Vokalia and Consonatia, 
+							there live the behind texts.
+						</p>
+						<a href="#">Dennis Green</a>
+						<h6>Guest from England</h6>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 hidden-sm col-xs-12 guest">
+					<img class="img-responsive" src="img/person_3.jpg" alt="">
+					<div class="descr">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<p>Far far away, behind  to the world mountains, far from countries Vokalia and Consonatia, 
+							there live the behind texts.
+						</p>
+						<a href="#">Dennis Green</a>
+						<h6>Guest from USA</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block_10">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 col-xs-12 bl_10">
+					<h1>Want to get our hottest travel deals top tips and advice? Subscribe us now!</h1>
+					<input value="Enter your email address" type="email" name="" id="">
+				</div>
+				<div class="col-md-8 col-sm-12 col-xs-12">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<h2>Most Recommended Hotels</h2>
+							</div>
+						</div>
+					</div>
+					<div class="hotel_block">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-4 col-sm-6 col-xs-12 col_10">
+									<div class="work_bl">
+										<div class="hotel_wrap">
+											<div class="hotel_descr">
+												<p>$29/night</p>
+												<h4>Group Tour in Maldives</h4>
+												<p>Ameer Ahmed Magu Male, Maldives</p>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i> 500 reviews												
+											</div>
+										</div>	
+										<img class="img-responsive" src="img/hotel-1.jpg" alt="">
+									</div>					
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12 col_10">
+									<div class="work_bl">
+										<div class="hotel_wrap">
+											<div class="hotel_descr">
+												<p>$29/night</p>
+												<h4>Group Tour in Maldives</h4>
+												<p>Ameer Ahmed Magu Male, Maldives</p>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i> 500 reviews												
+											</div>
+										</div>	
+										<img class="img-responsive" src="img/hotel-2.jpg" alt="">
+									</div>					
+								</div>
+								<div class="col-md-4 col-sm-6 hidden-sm col-xs-12 col_10">
+									<div class="work_bl">
+										<div class="hotel_wrap">
+											<div class="hotel_descr">
+												<p>$29/night</p>
+												<h4>Group Tour in Maldives</h4>
+												<p>Ameer Ahmed Magu Male, Maldives</p>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i> 500 reviews												
+											</div>
+										</div>	
+										<img class="img-responsive" src="img/hotel-3.jpg" alt="">
+									</div>					
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block_11">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Our Blog</h1> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block_12">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12 col_12">
+					<img class="img-responsive" src="img/image_5.jpg" alt="">
+					<h6>July 7, 2018 Admin</h6>
+					<p>Even the all-powerful <br>
+					Pointing no has control <br>
+					about the blind texts</p>
+					<a href="#">Read more</a>
+					<i class="fa fa-comment"></i> 3
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 col_12">
+					<img class="img-responsive" src="img/image_6.jpg" alt="">
+					<h6>July 7, 2018 Admin</h6><br>
+					<p>Even the all-powerful <br>
+					Pointing no has control <br>
+					about the blind texts</p>
+					<a href="#">Read more</a>
+					<i class="fa fa-comment"></i> 3
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 col_12">
+					<img class="img-responsive" src="img/image_7.jpg" alt="">
+					<h6>July 7, 2018 Admin</h6><br>
+					<p>Even the all-powerful <br>
+					Pointing no has control <br>
+					about the blind texts</p>
+					<a href="#">Read more</a>
+					<i class="fa fa-comment"></i> 3
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 col_12">
+					<img class="img-responsive" src="img/image_8.jpg" alt="">
+					<h6>July 7, 2018 Admin</h6><br>
+					<p>Even the all-powerful <br>
+					Pointing no has control <br>
+					about the blind texts</p>
+					<a href="#">Read more</a>
+					<i class="fa fa-comment"></i> 3
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block_13">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-4 col-xs-12">
+					<h3>Voyage Fellow Tourist</h3>
+					<p>Lorem ipsum dolor, 
+						sit amet consectetur adipisicing elit. 
+						Veritatis, impedit.</p>
+				</div>
+				<div class="col-md-2  col-sm-4 col-xs-12">
+					<h3>Book Now</h3>
+					<ul class="book_now">
+						<li><a href="#">Flight</a></li>
+						<li><a href="#">Hotels</a></li>
+						<li><a href="#">Tour</a></li>
+						<li><a href="#">Car Rent</a></li>
+						<li><a href="#">Beach & Resorts</a></li>
+						<li><a href="#">Mountain</a></li>
+						<li><a href="#">Cruises</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<h3 class="top_h3">Top Deals</h3>
+					<ul class="top_deals">
+						<li><a href="#">Luxe Hotel</a></li>
+						<li><a href="#">Venice Tour</a></li>
+						<li><a href="#">Deluxe Hotels</a></li>
+						<li><a href="#">Boracay Beach & Resorts</a></li>
+						<li><a href="#">Beach & Resorts</a></li>
+						<li><a href="#">Fuente Villa</a></li>
+						<li><a href="#">Japan Tours</a></li>
+						<li><a href="#">Philippines Tours</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<h3 class="top_h3">Contact Information</h3>
+					<ul class="contact_info">
+						<li><a href="#">198 West 21th Street, Suite 721 New York NY 10016</a></li>
+						<li><a href="#">+ 1235 2355 98</a></li>
+						<li><a href="#">Info@yoursite.com</a></li>
+						<li><a href="#">emai@email.com</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-6 col-xs-12">
+					<div class="social">
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+
+				</div>				
+			</div>
+		</div>
+	</div>
+	<div class="block_14">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h5>Copyright 2020 All right reserved | This template is made with by Colorlib</h5>
+			</div>
+		</div>
+	</div>
+
+	
+    
+	<script src="libs/jquery/jquery-2.1.4.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

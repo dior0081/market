@@ -1,0 +1,127 @@
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 360px) {
+    .top_text{
+        width: 300px;
+        height: 80px;
+        margin-left: 15px;        
+    }
+    .top_text h1{
+        font-size: 20px;
+    }
+    .top_text p{
+        font-size: 20px;
+    }
+    nav{
+        line-height: 60px;
+    }
+    #top_menu{
+        background-color: #fff;
+    }  
+    .menu li{
+        display: block;
+        text-align: center;
+    }
+    .menu li i{
+        display: none;
+    }
+   .menu_btn{
+       width: 40px;
+       height: 40px;
+       border: 1px solid skyblue;
+       border-radius: 50%;
+       background-color: skyblue;
+       margin-top: 30px;
+   }
+   .menu_btn span{
+       top: -15px;
+       color: #fff;
+   }
+   .offer button{
+       margin-right: 100px;
+   }
+   .offer p{
+       text-align: center;
+   }
+   .col1{
+       width: 310px;
+       margin-bottom: 15px;
+   }
+   .block_2 h4{
+       text-align: center;
+   }
+   .block_2 p{
+       text-align: center;
+   }
+   .col_3 h1{
+        font-size: 22px;
+   }
+   .col_4 p{
+    font-size: 16px;
+    margin-top: 20px;
+    }
+    .col_4 h1{
+        margin: 0;
+    }
+    .partners{
+        padding: 40px 0;
+    }
+    
+}
+
+      
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {   
+    .menu li{
+        display: inline-block;
+        padding: 0 5px;
+    }
+    #top_menu{
+        background-color:transparent;
+    } 
+    .logo img{
+        width: 120px;
+        height: 60px;
+    }
+    .block_3{
+        padding: 0;
+    }
+    .menu li i{
+        display: inline-block;
+    }    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .col1{
+        width: 365px;
+    }
+    .top_text{
+        width: 550px;
+        height: 120px;
+        background-color: rgba(255, 255, 255, .6);
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 220px;
+        color: red;
+        padding-left: 15px;
+    }
+    .top_text h1{
+        font-weight: 700;
+    }
+    .top_text p{
+        font-size: 32px;
+    }
+    .menu li{
+        padding: 10px 20px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+
+}

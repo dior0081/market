@@ -1,0 +1,144 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .textbox{
+        margin: 10px;
+    }
+    
+    .block_1 select{
+        margin: 10px 10px;
+    }
+    
+
+    .block_2 h3{
+        margin: 10px;
+        text-align: center;
+    }
+    .block_3{
+        margin: 0;
+    }
+    .block_3 img{
+        margin: 20px 95px;
+    }
+    .block_9{
+        margin: 50px;
+
+    }
+    .guest{
+        margin: 15px;
+    }
+    .bl_10{
+        height: 380px;
+    }
+    .block_10 h1{
+        text-align: center;
+    }
+    .block_10 input{
+        width: 95%;
+        padding: 10px 15px;
+    }
+    .block_10 h2{
+        text-align: center;
+    }
+    .col_12{
+        padding: 0 85px;
+    }
+
+	
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+	nav{
+        position: relative;
+    }
+    #top_menu{
+        background-color: #ff5f5f;
+        
+    }
+    .menu li{
+        display: block;
+        text-align: center;        
+    }
+    .menu li a{
+        padding: 10px;
+        color: #fff;
+    }
+    .menu_btn{
+        
+        width: 40px;
+        height: 40px;
+        background-color: #ff5f5f;
+        border: 1px solid #ff5f5f;
+        border-radius: 50%;
+        margin-top: 35px;
+    }
+    .menu_btn span{
+        top: -33px;
+        color: #fff;        
+    }
+   .textbox{
+       padding: 5px 15px;
+       margin: 5px;
+       width: 100%;
+   }
+   .block_1{
+       text-align: center;
+   }
+   .block_1 select{
+    padding: 0 ;
+    margin: 0;
+    width: 100%;
+   }
+   .block_1 button{
+       padding: 10px 20px;
+       margin: 5px 110px;
+       text-align: center;
+   }
+   .block_2 h3{
+       font-size: 28px;
+       padding: 0;
+       margin: 15px;
+       text-align: center;
+   }
+   }
+   .block_2 i{
+       margin: 0;
+   }
+   .block_3 img{
+       width: 150px;
+       height: 150px;
+   }
+   .guest{
+       margin: 5px 35px;
+   }
+   .block_10{
+       padding: 10px;
+   }
+   .block_10 h1{
+       font-size: 22px;
+       margin: 20px 10px;
+   }
+   .block_11{
+       padding: 40px;
+       margin: 0;
+   }
+   .col_12{
+       margin: 0;
+   }
+   .top_h3{
+       
+   }
+   .block_13{
+       text-align: center;
+   }
